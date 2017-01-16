@@ -5,6 +5,7 @@
  */
 package csd4464.assignment1.unkeyboardinated.solutions;
 
+import static csd4464.assignment1.unkeyboardinated.solutions.CSD4464Assignment1UnkeyboardinatedSolutions.stringPower;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -66,11 +67,16 @@ public class CSD4464Assignment1UnkeyboardinatedSolutionsTest {
     
     @Test
     public void testEmptyStringShouldReturnEmptyString() {
+        
         String s = "";
+        String result;
+        int i = 0;
         
-        String expResult = null;
+        result = stringPower(s, i);
         
-        assertEquals(expResult, s);
+        String expResult = "";
+        
+        assertEquals(expResult, result);
         
         
     } 
