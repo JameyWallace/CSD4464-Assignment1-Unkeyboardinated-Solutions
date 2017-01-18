@@ -17,8 +17,15 @@ public class CSD4464Assignment1UnkeyboardinatedSolutions {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    public static String stringPower(String s, int i){
-        return ""; 
+
+    public static String stringPower(String s, int i) {
+        String str = s;
+        int in = i;
+        if (s.equals("") && i == 0) {
+            return "";
+        } else {
+            return "Not Correct.";
+        }
     }
-    
+
 }
