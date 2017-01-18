@@ -29,6 +29,10 @@ public class CSD4464Assignment1UnkeyboardinatedSolutions {
         else if( in == 1) {
             return s;
         }
+        else if (in == 2) {
+            str += str;
+            return str;
+        }
         
         else{
             return"Not Correct.";
