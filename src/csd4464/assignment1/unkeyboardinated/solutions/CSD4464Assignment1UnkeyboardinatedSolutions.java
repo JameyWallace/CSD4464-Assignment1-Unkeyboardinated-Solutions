@@ -21,10 +21,13 @@ public class CSD4464Assignment1UnkeyboardinatedSolutions {
     public static String stringPower(String s, int i) {
         String str = s;
         int in = i;
-        if (s.equals(str) && i == -1) {
-            return null;
-        } else {
-            return "Not Correct.";
+        if (s.equals("")) {
+            return "";
+        } else if(i < 1) {
+             return null;
+        }
+        else{
+            return"Not Correct.";
         }
     }
 
