@@ -98,5 +98,13 @@ public class CSD4464Assignment1UnkeyboardinatedSolutionsTest {
         assertEquals(expResult, result);
     }
     
+     @Test
+    public void testStringAndTwoShouldReturnStringDoubled(){
+        String s = "bob.";
+        int i = 1;
+        String result = stringPower(s, i);  
+        String expResult = "bobbob";
+        assertEquals(expResult, result);
+    }
     
 }
