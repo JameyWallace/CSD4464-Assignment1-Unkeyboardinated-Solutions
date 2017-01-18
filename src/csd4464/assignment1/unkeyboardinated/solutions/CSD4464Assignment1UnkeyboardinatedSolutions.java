@@ -21,8 +21,8 @@ public class CSD4464Assignment1UnkeyboardinatedSolutions {
     public static String stringPower(String s, int i) {
         String str = s;
         int in = i;
-        if (s.equals("") && i == 0) {
-            return "";
+        if (s.equals(str) && i == -1) {
+            return null;
         } else {
             return "Not Correct.";
         }
