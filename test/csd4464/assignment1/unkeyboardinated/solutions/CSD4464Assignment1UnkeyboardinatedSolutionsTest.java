@@ -80,7 +80,23 @@ public class CSD4464Assignment1UnkeyboardinatedSolutionsTest {
         
         
     } 
+    @Test
+    public void testLessThanOneShouldReturnNull(){
+        String s = "Hi there.";
+        int i = -1;
+        String result = stringPower(s, i);  
+        String expResult = null;
+        assertEquals(expResult, result);
+    }
     
+    @Test
+    public void testStringAndOneShouldReturnString(){
+        String s = "Hi there.";
+        int i = 1;
+        String result = stringPower(s, i);  
+        String expResult = s;
+        assertEquals(expResult, result);
+    }
     
     
 }
