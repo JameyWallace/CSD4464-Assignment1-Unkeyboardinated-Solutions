@@ -38,32 +38,32 @@ public class CSD4464Assignment1UnkeyboardinatedSolutionsTest {
     public void tearDown() {
     }
 
-    /**
-     * Test of main method, of class CSD4464Assignment1UnkeyboardinatedSolutions.
-     */
-    @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        CSD4464Assignment1UnkeyboardinatedSolutions.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+//    /**
+//     * Test of main method, of class CSD4464Assignment1UnkeyboardinatedSolutions.
+//     */
+//    @Test
+//    public void testMain() {
+//        System.out.println("main");
+//        String[] args = null;
+//        CSD4464Assignment1UnkeyboardinatedSolutions.main(args);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+//    }
 
     /**
      * Test of stringPower method, of class CSD4464Assignment1UnkeyboardinatedSolutions.
      */
-    @Test
-    public void testStringPower() {
-        System.out.println("stringPower");
-        String s = "";
-        int i = 0;
-        String expResult = "";
-        String result = CSD4464Assignment1UnkeyboardinatedSolutions.stringPower(s, i);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+//    @Test
+//    public void testStringPower() {
+//        System.out.println("stringPower");
+//        String s = "";
+//        int i = 0;
+//        String expResult = "";
+//        String result = CSD4464Assignment1UnkeyboardinatedSolutions.stringPower(s, i);
+//        assertEquals(expResult, result);
+//        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+//    }
     
     @Test
     public void testEmptyStringShouldReturnEmptyString() {
